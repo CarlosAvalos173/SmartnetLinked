@@ -11,6 +11,7 @@ You can directly use them in pages and other components without the need to impo
 - `<HomeCarousel>` | `<home-carousel>` (components/HomeCarousel.vue)
 - `<JobTable>` | `<job-table>` (components/JobTable.vue)
 - `<Nav>` | `<nav>` (components/Nav.vue)
+- `<NavLogin>` | `<nav-login>` (components/NavLogin.vue)
 - `<Newsletter>` | `<newsletter>` (components/Newsletter.vue)
 - `<ProductSlider>` | `<product-slider>` (components/ProductSlider.vue)
 - `<ScrollTop>` | `<scroll-top>` (components/ScrollTop.vue)

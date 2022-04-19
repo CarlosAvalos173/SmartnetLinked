@@ -16,7 +16,7 @@ class Product_category(BaseModel):
 
     
 #This is a pydantic model to return data from the database
-class Product_category_outs(BaseModel):
+class Product_category_outs(Product_category):
     id: str = Field(title="The id of the product category")
     created_at: datetime = Field(title="The date of creation of the product category")
     modified_at: datetime = Field(title="The date of modification of the product category")

@@ -15,7 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 meta.create_all(engine)
 
 app = FastAPI(
-    title="Prueba API",
+    title="SmartNet API",
     description="API for SmartNet Store",
     openapi_tags = [{
         "name": "users",

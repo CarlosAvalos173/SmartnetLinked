@@ -134,7 +134,7 @@ export default {
       });
       //Remove items from cart
       this.$store.commit("cart/ClearCart");
-      this.$router.push("/");
+      this.$router.push("/home");
     },
   },
   data() {

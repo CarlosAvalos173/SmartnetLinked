@@ -14,6 +14,9 @@
   "Nav": {
     "description": "Auto imported from components/Nav.vue"
   },
+  "NavLogin": {
+    "description": "Auto imported from components/NavLogin.vue"
+  },
   "Newsletter": {
     "description": "Auto imported from components/Newsletter.vue"
   },

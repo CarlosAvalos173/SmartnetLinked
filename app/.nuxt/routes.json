@@ -7,6 +7,13 @@
     "_name": "_0aca8167"
   },
   {
+    "name": "home",
+    "path": "/home",
+    "component": "D:\\\\Smartnet\\\\app\\\\pages\\\\home.vue",
+    "chunkName": "pages/home",
+    "_name": "_93a8460c"
+  },
+  {
     "name": "plantilla",
     "path": "/plantilla",
     "component": "D:\\\\Smartnet\\\\app\\\\pages\\\\plantilla.vue",

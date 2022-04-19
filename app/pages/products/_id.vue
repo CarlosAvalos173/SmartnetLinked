@@ -62,17 +62,17 @@
 <script>
 export default {
   async created() {
-    const p = await this.$content("products")
-      .where({ id: parseInt(this.$route.params.id) })
-      .limit(1)
-      .fetch();
-    this.product = p[0];
+    this.$store.commit("products/storeProducts",(await this.$axios.get("http://localhost:8000/products/".concat(this.$route.params.id))).data);
   },
   data() {
     return {
-      product: null,
     };
   },
+  computed:{
+    product(){
+      return this.$store.state.products.data;
+    }
+  }
 };
 </script>
 

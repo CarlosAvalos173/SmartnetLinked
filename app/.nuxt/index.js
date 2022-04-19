@@ -23,6 +23,7 @@ import nuxt_plugin_pluginserver_430fa24c from 'nuxt_plugin_pluginserver_430fa24c
 import nuxt_plugin_workbox_0e4aca1b from 'nuxt_plugin_workbox_0e4aca1b' // Source: .\\workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_5403739b from 'nuxt_plugin_metaplugin_5403739b' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
 import nuxt_plugin_iconplugin_58ab190f from 'nuxt_plugin_iconplugin_58ab190f' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
+import nuxt_plugin_vuetify_d6afc2c2 from 'nuxt_plugin_vuetify_d6afc2c2' // Source: ..\\plugins\\vuetify.js (mode: 'all')
 import nuxt_plugin_cart_07da1ea1 from 'nuxt_plugin_cart_07da1ea1' // Source: ..\\plugins\\cart.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -255,6 +256,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_iconplugin_58ab190f === 'function') {
     await nuxt_plugin_iconplugin_58ab190f(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_vuetify_d6afc2c2 === 'function') {
+    await nuxt_plugin_vuetify_d6afc2c2(app.context, inject)
   }
 
   if (typeof nuxt_plugin_cart_07da1ea1 === 'function') {

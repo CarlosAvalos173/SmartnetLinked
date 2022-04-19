@@ -20,7 +20,7 @@
               <v-subheader>Categories</v-subheader>
               <v-list-item
                 v-for="(c, i) in categories"
-                :key="`category${i}`"
+                :key="i.name"
                 link
               >
                 <v-list-item-avatar>
@@ -97,13 +97,11 @@
 <script>
 export default {
   async created() {
-    this.categories = await this.$content("category").fetch();
-    this.products = await this.$content("products").fetch();
+    this.$store.commit("productCategories/storeProduct_categories",(await this.$axios.get("http://localhost:8000/product_categories")).data);
+    this.$store.commit("products/storeProducts",(await this.$axios.get("http://localhost:8000/products")).data);
   },
   data() {
     return {
-      products: null,
-      categories: null,
       search: null,
     };
   },
@@ -125,6 +123,12 @@ export default {
           r.includes(s)
         );
       });
+    },
+    products(){
+      return this.$store.state.products.data;
+    },
+    categories(){
+      return this.$store.state.productCategories.data;
     },
   },
 };
