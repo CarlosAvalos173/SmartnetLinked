@@ -1,0 +1,19 @@
+Nota: Se debe de guardar en una carpeta llamada *commerce*
+Pasos:
+1.- npx create-nuxt-app .
+2.- *Enter*
+3.- JavaScript
+4.- Npm
+5.- Vuetify.js
+6.- (*) Progressive Web App (PWA)
+    (*) Content - Git-based headless CMS
+7.- *Enter* (No escogen nada)
+8.- None
+9.- Single Page App
+10.- Static (Static/Jamstack hosting)
+11.- (*) jsconfig.json (Recommended for VS Code if you're not using typescript)
+12.- *Es tu cuenta de github, supongo que es opcional xd*
+13.- Git
+14.- npm i @nuxt/types @sweetalert2/theme-material-ui nuxt-webfontloader vue-sweetalert2
+
+

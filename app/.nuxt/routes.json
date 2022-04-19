@@ -1,0 +1,51 @@
+[
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "D:\\\\Smartnet\\\\app\\\\pages\\\\cart\\\\index.vue",
+    "chunkName": "pages/cart/index",
+    "_name": "_0aca8167"
+  },
+  {
+    "name": "plantilla",
+    "path": "/plantilla",
+    "component": "D:\\\\Smartnet\\\\app\\\\pages\\\\plantilla.vue",
+    "chunkName": "pages/plantilla",
+    "_name": "_1830de90"
+  },
+  {
+    "name": "products",
+    "path": "/products",
+    "component": "D:\\\\Smartnet\\\\app\\\\pages\\\\products\\\\index.vue",
+    "chunkName": "pages/products/index",
+    "_name": "_89597bba"
+  },
+  {
+    "name": "prueba",
+    "path": "/prueba",
+    "component": "D:\\\\Smartnet\\\\app\\\\pages\\\\prueba.vue",
+    "chunkName": "pages/prueba",
+    "_name": "_5f8243a8"
+  },
+  {
+    "name": "cart-confirm",
+    "path": "/cart/confirm",
+    "component": "D:\\\\Smartnet\\\\app\\\\pages\\\\cart\\\\confirm.vue",
+    "chunkName": "pages/cart/confirm",
+    "_name": "_f4d065d6"
+  },
+  {
+    "name": "products-id",
+    "path": "/products/:id",
+    "component": "D:\\\\Smartnet\\\\app\\\\pages\\\\products\\\\_id.vue",
+    "chunkName": "pages/products/_id",
+    "_name": "_0601714b"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Smartnet\\\\app\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_638d05c7"
+  }
+]

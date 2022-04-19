@@ -1,0 +1,29 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Form": {
+    "description": "Auto imported from components/Form.vue"
+  },
+  "HomeCarousel": {
+    "description": "Auto imported from components/HomeCarousel.vue"
+  },
+  "JobTable": {
+    "description": "Auto imported from components/JobTable.vue"
+  },
+  "Nav": {
+    "description": "Auto imported from components/Nav.vue"
+  },
+  "Newsletter": {
+    "description": "Auto imported from components/Newsletter.vue"
+  },
+  "ProductSlider": {
+    "description": "Auto imported from components/ProductSlider.vue"
+  },
+  "ScrollTop": {
+    "description": "Auto imported from components/ScrollTop.vue"
+  },
+  "Table": {
+    "description": "Auto imported from components/Table.vue"
+  }
+}

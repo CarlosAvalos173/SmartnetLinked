@@ -1,0 +1,61 @@
+[
+    {
+        "id":1,
+        "name": "Perras de mamitas puebla",
+        "onSale": false,
+        "tags": ["Headphone", "People"],
+        "image": "https://i.ytimg.com/vi/RvThBVRgF8Y/maxresdefault.jpg",
+        "description": "El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos en documentos, sin necesidad de una copia formal. ",
+        "price": 20000,
+        "salePrice":null,
+        "ratings": 4.0 
+    },
+
+    {
+        "id":2,
+        "name": "Cisco Dual Wan Rv320 VPN Router - 6 Ports - Desktop",
+        "onSale": true,
+        "tags": ["Perfume", "Women"],
+        "image": "https://cdn.shopify.com/s/files/1/0608/9487/1728/products/cisco_1100x.jpg?v=1643884717",
+        "description": "Network connectivity is at the heart of every small business, and secure access, firewall protection, and high performance are the cornerstones of every Cisco Small Business Rv Series Router. Dual Wan Gigabit Cisco Rv320 Router Vpn is no exception. With an intuitive user interface, the Cisco Rv320 gets you up and running in minutes. The Cisco Rv320 provides reliable and highly secure access connectivity for you and your employees that is so transparent you won't know it's there.",
+        "price": 4162.00,
+        "salePrice":3000,
+        "ratings": 4.5 
+    },
+
+    {
+        "id":3,
+        "name": "Router, Access point TP-Link Archer AX6000 Quad-Core V1 black 100V/240V",
+        "onSale": true,
+        "tags": ["Nike", "men"],
+        "image": "https://cdn.shopify.com/s/files/1/0608/9487/1728/products/tplink.jpg?v=1643883226",
+        "description": "Connectivity that goes with you TP Link is synonymous with stability, performance and value as the #1 provider of Wi-Fi devices with distribution in over 170 countries. This AX6000 Quad-Core model will allow you to create high-speed networks and integrate all smart electronic devices so you can enjoy the best connection without interruptions. More antennas, better signal With this device, walls and ceilings are not an obstacle: multiple receivers guarantee better performance in places with a high level of interference.",
+        "price": 5532,
+        "salePrice":2700,
+        "ratings": 5.0 
+    },
+
+    {
+        "id":4,
+        "name": "Quiero comer",
+        "onSale": false,
+        "tags": ["watch", "Pretty"],
+        "image": "https://i0.wp.com/interactiva.uvic.cat/bloc/wp-content/uploads/sites/2/2021/03/Eksf11vXYAER2KT.jpeg?fit=973%2C760",
+        "description": "El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos en documentos, sin necesidad de una copia formal. ",
+        "price": 100600,
+        "salePrice":null,
+        "ratings": 4.0 
+    },
+
+    {
+        "id":5,
+        "name": "Switch Linksys 5 ports",
+        "onSale": true,
+        "tags": ["Gaming", "People"],
+        "image": "https://cdn.shopify.com/s/files/1/0608/9487/1728/products/switch.jpg?v=1643882182",
+        "description": "Switch 5 ports, 4 FastEthernet and 1 GigabitEthernet",
+        "price": 3000,
+        "salePrice":1000,
+        "ratings": 2.0 
+    }
+]

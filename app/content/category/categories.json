@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Shoes",
+        "image": "https://pbs.twimg.com/media/EbCtSLnWsAEKEnN.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Handbags",
+        "image": "https://preview.redd.it/pwf9lhvzis841.jpg?auto=webp&s=a106470a1ab1fcafb545890792530a41206dd6fa"
+    },
+
+    {
+        "id": 3,
+        "name": "Perfumes",
+        "image": "https://pbs.twimg.com/media/FPiFlF9X0AQgd_B.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Cosmetics",
+        "image": "https://i.pinimg.com/originals/74/ec/02/74ec02d6a79f9ca3e0b2c2983965d82b.jpg"
+    },
+
+    {
+        "id": 5,
+        "name": "Food",
+        "image": "https://64.media.tumblr.com/02091d0f1de336411274a1a158a31be9/2e5f0dc4c6f81dc3-07/s1280x1920/76b675511277e0843755473be8e1fb504f34ef45.jpg"
+    }
+]
